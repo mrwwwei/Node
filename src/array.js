@@ -16,7 +16,9 @@ class myArray {
     }
 
     // remove one item of my array
-    removeItem(beginIndex, deleteCount) {
+    removeItem(beginIndex) {
+        this.items.splice(beginIndex,1);
+        return this.items;
        
      }
 
