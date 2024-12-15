@@ -27,7 +27,7 @@ describe('Test My Array', () => {
         newArray.addItem(3)
         newArray.addItem(4)
 
-        let result = newArray.removeLastItem(4)
+        let result = newArray.removeLastItem()
 
         expect(result).toEqual([1,2,3])
     })
