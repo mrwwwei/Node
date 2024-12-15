@@ -32,7 +32,25 @@ describe('Test My Array', () => {
         expect(result).toEqual([1,2,3])
     })
 
+    test('add remove last item from empty array', () => {
+        let newArray = new myArray()
+        let result = newArray.removeLastItem()
+
+        expect(result).toEqual([])
+    })
+
     // 4. test remove first item
+    test('remove first item', () => {
+        let newArray = new myArray()
+        newArray.addItem(1)
+        newArray.addItem(2)
+        newArray.addItem(3)
+        newArray.addItem(4)
+
+        let result = newArray.removeLastItem()
+
+        expect(result).toEqual([2,3,4])
+    })
 
     // 5. test remove item in middle
 })
