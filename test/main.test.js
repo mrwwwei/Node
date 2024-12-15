@@ -6,7 +6,6 @@ test('测试加法函数', () => {
 
 const myArray = require('../src/array.js');
 
-
 test('测试数组修改元素',()=>{
     myArray[0]=2
     expect(myArray[0]).toBe(2);
