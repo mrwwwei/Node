@@ -5,7 +5,8 @@ class myArray {
     }
     // add one item of my array
     addItem(item) { 
-        return [1]
+        this.items.push(item)
+        return this.items;
     }
 
     // remove one item of my array
