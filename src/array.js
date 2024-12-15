@@ -21,7 +21,10 @@ class myArray {
      }
 
     // remove first item of my array
-    removeFirstItem() { }
+    removeFirstItem() { 
+        this.items.splice(0,1);
+        return this.items;
+    }
 
     // remove last item of my array
     removeLastItem() { 
