@@ -3,6 +3,11 @@ class myArray {
     constructor() {
         this.items = []
     }
+
+    editItem(index, item) {
+
+    }
+
     // add one item of my array
     addItem(item) { 
         this.items.push(item)
