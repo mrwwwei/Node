@@ -1,33 +1,17 @@
-class Queue{
-    constructor(){
-        this.items=[];
-    }
+class myQueue{
 
-    enqueue(element){
-        this.items.push(element);
-    }
+    enqueue(){}
 
+    dequeue(){}
 
-    dequeue(){
-        return this.items.shift();
-    }
+    front() {}
 
-    front(){
-        return this.items[0];
-    }
-    size(){
-        return this.items.length;
-    }
-    isEmpty(){
-        return this.items.length===0;
+    size() {}
 
-    }
+    isEmpty(){}
 
 }
 
-const queue=new Queue();
-queue.enqueue(1);
-queue.enqueue(3);
-queue.enqueue(2);
-
-module.exports={queue};
+module.exports={
+    myQueue
+};

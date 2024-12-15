@@ -1,22 +1,18 @@
-const myArray = [1,2,3,"hello",true]
 
-console.log(myArray[0])
+class myArray {
+    // add one item of my array
+    addItem(item) { }
 
-myArray[1]=4;
+    // remove one item of my array
+    removeItem(beginIndex, deleteCount) { }
 
-myArray.push(6);
+    // remove first item of my array
+    removeFirstItem() { }
 
-const poppedElement=myArray.pop();
-const firstelment=myArray.shift();
-myArray.splice(1,2);
-
-const index=myArray.indexOf(3);
-
-for(let i = 0; i<myArray.length;i++){
-    console.log(Array[i])
+    // remove last item of my array
+    removeLastItem() { }
 }
 
-
-
-
-module.exports=myArray;
+module.exports = {
+    myArray
+};

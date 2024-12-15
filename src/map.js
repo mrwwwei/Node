@@ -1,9 +1,6 @@
-const myMap=new Map();
+class myMap {
+    add(item) {}
+    remove(key) {}
+}
 
-myMap.set('name','Bob');
-myMap.set('age',25);
-
-
-myMap.delete('age');
-
-module.exports={myMap};
+module.exports = { myMap };

@@ -1,36 +1,16 @@
-class Stack{
-    constructor(){
-        this.items=[];
-    
-    }
+class myStack{
 
+    push(){}
 
-    push(element){
-        this.items.push(element);
-    }
+    pop(){}
 
-    pop (){
-        return this.items.pop();
-    }
+    peek(){}
 
-    peek(){
-        return this.items[this.items.length-1];
-    }
+    size(){}
 
-    size(){
-        return this.items.length;
-    }
-
-    isEmpty(){
-        return this.items.length===0;
-    }
+    isEmpty(){}
 }
 
-const stack=new Stack();
-
-
-
-
 module.exports={
-    stack
+    myStack
 };
