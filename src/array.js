@@ -5,7 +5,8 @@ class myArray {
     }
 
     editItem(index, item) {
-
+        this.items[index]=item;
+        return this.items;
     }
 
     // add one item of my array
