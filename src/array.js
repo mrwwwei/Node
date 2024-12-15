@@ -16,13 +16,19 @@ class myArray {
     }
 
     // remove one item of my array
-    removeItem(beginIndex, deleteCount) { }
+    removeItem(beginIndex, deleteCount) {
+       
+     }
 
     // remove first item of my array
     removeFirstItem() { }
 
     // remove last item of my array
-    removeLastItem() { }
+    removeLastItem() { 
+        const n = this.items.length;
+        this.items.splice(n-1,1);
+        return this.items;
+    }
 }
 
 module.exports = {
