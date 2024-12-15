@@ -53,4 +53,15 @@ describe('Test My Array', () => {
     })
 
     // 5. test remove item in middle
+    test('remove item in middle', () => {
+        let newArray = new myArray()
+        newArray.addItem(1)
+        newArray.addItem(2)
+        newArray.addItem(3)
+        newArray.addItem(4)
+
+        let result = newArray.removeItem(2)
+
+        expect(result).toEqual([1,2,4])
+    })
 })
