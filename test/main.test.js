@@ -239,17 +239,17 @@ describe('Set .test',()=>{
 
 //map
 
-const {mymap}=require('../src/map.js');
+const {myMap}=require('../src/map.js');
 
 describe('Map test',()=>{
   test('map.add',()=>{
-    mymap.set('gender','male');
-    expect(mymap.get('gender')).toBe('male');
+    myMap.set('gender','male');
+    expect(myMap.get('gender')).toBe('male');
   });
 
   test('map.delete',()=>{
-    mymap.delete('name');
-    expect(mymap.has('name')).toBe(false);
+    myMap.delete('name');
+    expect(myMap.has('name')).toBe(false);
   });
 
 

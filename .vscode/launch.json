@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "runtimeArgs": ["--inspect-brk", "${workspaceFolder}/node_modules/.bin/jest", "--runInBand", "binary.test.js"],
+            "runtimeArgs": ["--inspect-brk", "${workspaceFolder}/node_modules/jest/bin/jest.js", "--runInBand", "binary.test.js"],
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
         }
