@@ -1,7 +1,12 @@
 
 class myArray {
+    constructor() {
+        this.items = []
+    }
     // add one item of my array
-    addItem(item) { }
+    addItem(item) { 
+        return [1]
+    }
 
     // remove one item of my array
     removeItem(beginIndex, deleteCount) { }

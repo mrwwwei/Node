@@ -1,7 +1,13 @@
-import myArray from '../src/array.js'
+const { myArray } = require('../src/array.js')
+
+let newArray = new myArray()
 
 describe('Test My Array', () => {
     // 1. test edit item
+    test('edit item', () => {
+        let result = newArray.addItem(2)
+        expect(result).toEqual([2])
+    })
 
     // 2. test add one item
 
